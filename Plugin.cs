@@ -21,10 +21,5 @@ public class Plugin : BasePlugin
         
         SceneLoadedEvent.RegisterEvent();
         harmony.PatchAll();
-        /*
-         * FastMenu isn't working yet
-         * Quit isn't working yet
-         * Need to add a system for adding items to the menu
-         */
     }
 }

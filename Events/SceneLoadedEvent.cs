@@ -46,9 +46,10 @@ public class SceneLoadedEvent
             PrepareCarGame.Prepare(minigamesAutomate);
         }
 
-        if (scene.name == "SceneMenu")
-        {
-            InsertSettingsIntoMenu.Insert();
-        }
+        // Maybe one day I'll find out how to do this
+        // if (scene.name == "SceneMenu")
+        // {
+        //     InsertSettingsIntoMenu.Insert();
+        // }
     }
 }
