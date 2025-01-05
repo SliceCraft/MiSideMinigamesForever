@@ -13,6 +13,7 @@ public class SteamManagerPatch
     [HarmonyPrefix]
     public static void UpdatePatch()
     {
+        if(!SceneManager.GetActiveScene().name.Equals("SceneMenu")) return;
         if (Input.GetKey(KeyCode.LeftAlt) &&
             Input.GetKeyDown(KeyCode.M))
         {
