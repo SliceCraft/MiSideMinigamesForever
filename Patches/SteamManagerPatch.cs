@@ -1,4 +1,5 @@
 ﻿using HarmonyLib;
+using MinigamesForever.Utils;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -27,6 +28,11 @@ public class SteamManagerPatch
             PlayingCarSpace = true;
             GlobalGame.LoadingLevel = "Scene 7 - Backrooms";
             SceneManager.LoadScene("SceneLoading");            
+        }
+        if (Input.GetKey(KeyCode.LeftAlt) &&
+            Input.GetKeyDown(KeyCode.B))
+        {
+            LoadMinigameFromResources.loadMinigame("Minigame MakeManeken");
         }
     }
 }
