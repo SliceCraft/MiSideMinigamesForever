@@ -1,4 +1,5 @@
 ﻿using HarmonyLib;
+using MinigamesForever.GameLoader;
 using MinigamesForever.Utils;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -32,7 +33,7 @@ public class SteamManagerPatch
         if (Input.GetKey(KeyCode.LeftAlt) &&
             Input.GetKeyDown(KeyCode.B))
         {
-            LoadMinigameFromResources.loadMinigame("Minigame MakeManeken");
+            GameManager.LoadGame("Make Maneken");
         }
     }
 }
