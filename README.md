@@ -1,9 +1,8 @@
 # MiSide Minigames Forever
 Play the minigames implemented in MiSide from the main menu!
 
-## Early access
-This mod is still in development, not all features and minigames are implemented yet.  
-Feedback and contributions are appreciated!
+## Abandoned
+This mod has been abandoned in favour of the [Speedrun mod](https://github.com/SliceCraft/MiSideSpeedrunMod).
 
 # Features
 Currently you can play a few minigames by pressing the keybinds mentioned below.  
